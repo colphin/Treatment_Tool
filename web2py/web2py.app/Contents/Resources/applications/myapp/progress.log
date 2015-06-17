@@ -1,0 +1,11 @@
+[2015-06-16 12:12:01] START
+[2015-06-16 12:17:41] EDIT myapp/controllers/default.py: -1
+[2015-06-16 12:18:35] EDIT myapp/controllers/default.py: 0
+[2015-06-16 12:20:17] EDIT myapp/views/default/index.html: -41
+[2015-06-16 12:22:44] EDIT myapp/views/default/index.html: 1
+[2015-06-16 12:25:41] EDIT myapp/controllers/default.py: 4
+[2015-06-16 12:25:51] EDIT myapp/controllers/default.py: 0
+[2015-06-16 12:26:23] EDIT myapp/views/default/index.html: 3
+[2015-06-16 12:47:35] CREATE first.htl: 0
+[2015-06-16 12:47:44] DELETE myapp/views/first.htl: 0
+[2015-06-16 13:04:46] EDIT myapp/views/default/first.html: 0

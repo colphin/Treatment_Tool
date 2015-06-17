@@ -1,0 +1,9 @@
+<html>
+    <head></head>
+    <body>
+        <h1>
+            {{=response.toolbar()}}
+            {{=message}}
+        </h1>
+    </body>
+</html>

@@ -29,8 +29,7 @@ div.error { background-color: red; color: white; padding: 3px; }
  </head>
  <body>
   <!-- start header -->
-  {{try:}}{{=auth.navbar(action=URL('default','user'))}}{{except:pass}}
-
+<!--   {{try:}}{{=auth.navbar(action=URL('default','user'))}}{{except:pass}}  -->
   <div id="header">
    <div id="search">
     <form method="get" action="">
@@ -48,7 +47,7 @@ div.error { background-color: red; color: white; padding: 3px; }
      {{=response.title or request.application}}
     </h1>
     <h2>
-     {{=response.subtitle or '=response.subtitle'}}
+     {{=response.subtitle or 'Asian Liver Center'}}
     </h2>
    </div>
    <div id="menu">
@@ -62,7 +61,7 @@ div.error { background-color: red; color: white; padding: 3px; }
   <div id="page">
    <!-- start content -->
    <div id="content">
-    <div class="flash">{{=response.flash or ''}}</div>
+    <!-- <div class="flash">{{=response.flash or ''}}</div>  -->
     {{include}}
    </div>
    <!-- end content -->
@@ -314,12 +313,15 @@ div.error { background-color: red; color: white; padding: 3px; }
   <!-- end page -->
   <div id="footer">
    <p class="legal">
-    &copy;2007 All Rights Reserved.
+   &copy;2015 
+      <a href = "joinjade.org" >
+        Asian Liver Center
+      </a>
    </p>
    <p class="credits">
-    Designed by
-    <a href="http://www.freecsstemplates.org/">
-     Free CSS Templates
+      Designed By
+    <a href="http://www.calvin.ismyreal.name/">
+     Calvin Yin
     </a>
     .
    </p>
